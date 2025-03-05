@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 import 'ui/login.dart';
-import 'addDataPage.dart';
+import 'DataPushScreen.dart';
 
 
 
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Food Expiry Tracker',
       theme: ThemeData(primarySwatch: Colors.green),
-      home: AddDataPage(),
+      home: DataPushScreen(),
     );
   }
 }
